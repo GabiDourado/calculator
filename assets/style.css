@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 47, 245);
+    border-radius: 0.5rem;
+    width: 27%;
+    height: 40rem;
+}
+.input-calc {
+    display: block;
+    text-align: center;
+}
+.texto {
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 85%;
+    font-size: 3rem;
+    margin-top: 5.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.calculadora span {
+    border-radius: 0.5rem;
+}
+.btn {
+    background-color:rgb(184, 128, 236);
+    border-radius:0.5rem;
+    border: 2px solid rgb(254, 253, 254);
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 0.5rem 0.4rem;
+}
+.numeros {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 100%;
+    justify-content: center;
+}
+.large {
+    padding: 1.5rem 5rem;
+}
+.small {
+    padding: 1.5rem 1.75rem;
+}
+.btn-large-v {
+    background-color:rgb(184, 128, 236);
+    border-radius:0.5rem;
+    border: 2px solid rgb(254, 253, 254);
+    font-size: 2rem;
+    padding: 5rem 1.7rem;
+    position: relative;
+    top: -3.5rem;
+}
+.div-4 {
+    position: relative;
+    top: -3rem;
+    left: -0.2rem;
+}
+.div-33 {
+    position: relative;
+    left: -2.9rem;
+}
+.btn-num {
+    background-color:rgb(184, 128, 236);
+    border-radius:0.5rem;
+    border: 2px solid rgb(254, 253, 254);
+    font-size: 2rem;
+    padding: 1.7rem;
+    margin: 0.5rem 0.4rem;
+}
+.small-num {
+    padding: 1.7rem 2rem;
+}

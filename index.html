@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="assets/main.js"></script>
+        <link rel="icon" type="image/png" href="assets/e4e8f3ab76a1b4bc21c5d4b8d6594e83-icone-plano-da-calculadora.png"/>
+        <title>Calculadora</title>
+    </head>
+    <body id="FundoSite" onclick="TrocaCorDoFundoclicando()">
+        <div class="calculadora" id="Fundo" onclick="TrocaCorDoFundoQuandoClicar()">
+            <div class="form" action="">
+                <div class="input-calc">
+                <label for="calculando"></label>
+                <input type="text" name="" id="calculando" class="texto">
+                </div>
+                <div class="numeros">
+                    <div class="div-1">
+                        <button onclick="Clean()" id="bot-c" class="btn large">C</button>
+                        <button onclick="PegarValorOperador('/')" id="bot-/" class="btn small">:</button>
+                        <button onclick="PegarValorOperador('x')" id="bot-x" class="btn">x</button>
+                    </div>
+                    <div class="div-2">
+                        <button onclick="PegarValorBotao(this)" id="bot-7" class="btn-num">7</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-8" class="btn-num">8</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-9" class="btn-num">9</button>
+                        <button onclick="PegarValorOperador('-')" id="bot--" class="btn small">-</button>
+                    </div>
+                    <div class="div-3">
+                        <button onclick="PegarValorBotao(this)" id="bot-4" class="btn-num">4</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-5" class="btn-num">5</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-6" class="btn-num">6</button>
+                        <button onclick="PegarValorOperador('+')" id="bot-+" class="btn-num">+</button>
+                    </div>
+                    <div class="div-33">
+                        <button onclick="PegarValorBotao(this)" id="bot-1" class="btn-num">1</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-2" class="btn-num">2</button>
+                        <button onclick="PegarValorBotao(this)" id="bot-3" class="btn-num">3</button>
+                    </div>
+                    <div class="div-4">
+                    <button onclick="PegarValorBotao(this)" id="bot-0" class="btn large">0</button>
+                    <button onclick="PegarValorBotao(this)" id="bot-." class="btn small">.</button>
+                    <button onclick="CalcularResultado()" id="bot-=" class="btn-large-v">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
